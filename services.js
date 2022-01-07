@@ -104,7 +104,7 @@ const updateUserName = async (user, userId) => {
     }
 }
 
-//  Deactivate cloud user
+//  Update user status
 const updateUserStatus = async (user, userId, status) => {
     const userBody = {
         "schemas": [
@@ -126,7 +126,7 @@ const updateUserStatus = async (user, userId, status) => {
     }
 }
 
-// Export call
+// Export
 module.exports = {
     initServices,
     syncUser
